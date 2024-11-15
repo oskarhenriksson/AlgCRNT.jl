@@ -1,16 +1,12 @@
-Example Julia package repo.
+# Toricity of vertically parametrized systems with applications to reaction network theory
 
-[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaLang.github.io/Example.jl/stable)
-[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://JuliaLang.github.io/Example.jl/dev)
+This repoistory contains files for the forthcoming paper _Toricity of vertically parametrized systems with applications to reaction network theory_ by Elisenda Feliu and Oskar Henriksson.
 
-GitHub Actions : 
-[![Build Status](https://github.com/JuliaLang/Example.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/Example.jl/actions?query=workflow%3ACI+branch%3Amaster)
 
-Code coverage: 
-[![codecov](https://codecov.io/gh/JuliaLang/Example.jl/graph/badge.svg?token=yY3RYoqwbn)](https://codecov.io/gh/JuliaLang/Example.jl)
+## Dependencies
+The code is based on `Oscar v1.1.1` and `DataStructures v0.18.20`, `Graphs v1.12.0` and `HomotopyContinuation v2.11.1`. 
 
-PkgEval: 
-[![PkgEval][pkgeval-img]][pkgeval-url]
+For exact dependencies, see the file `src/Manifest.toml`.
 
-[pkgeval-img]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/E/Example.svg
-[pkgeval-url]: https://juliaci.github.io/NanosoldierReports/pkgeval_badges/E/Example.html
+## Examples
+See the notebook `IDH_example.ipynb`.
