@@ -1,7 +1,6 @@
 # AlgCRNT.jl
 
 🚀 An early version of a Julia package that collects functions for the algebraic analysis of chemical reaction networks.
-
 The long-term goal of the project is to integrate it with the functionality of `Catalyst.jl`.
 
 ## Dependencies
