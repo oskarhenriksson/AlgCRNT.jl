@@ -1,4 +1,10 @@
-using Test, Example
+using Test
 
-@test hello("Julia") == "Hello, Julia"
-@test domath(2.0) ≈ 7.0
+include("test_crnt.jl")
+include("test_toricity.jl")
+include("test_graph_structure.jl")
+include("test_intermediates.jl")
+include("test_shinar-feinberg.jl")
+
+
+
