@@ -1,12 +1,6 @@
-name = "Example"
-uuid = "7876af07-990d-54b4-ab0e-23690620f79a"
-version = "0.5.5"
-
-[compat]
-julia = "1"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+HomotopyContinuation = "f213a82b-91d6-5c5d-acf7-10f1c761b327"
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
